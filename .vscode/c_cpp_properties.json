@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "name": "DOS16",
+            "includePath": [
+                "${workspaceFolder}/src/**",
+                "c:/watcom/h/**",
+                "/usr/bin/watcom/h/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "_M_I86",
+                "far="
+            ],
+            "cStandard": "c89",
+            "cppStandard": "c++98",
+            "intelliSenseMode": "msvc-x86"
+        },
+        {
+            "name": "DOS32",
+            "includePath": [
+                "${workspaceFolder}/src/**",
+                "/home/wasabi/develop/watcom/h/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c89",
+            "cppStandard": "c++98",
+            "intelliSenseMode": "msvc-x86",
+            "compilerPath": "/home/wasabi/develop/watcom/binl/wcl386",
+            "compilerArgs": [
+                "-bt=DOS",
+                "-fe=bin/main.exe"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/src/**",
+                    "/home/wasabi/develop/watcom/h/**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "env": {},
+    "version": 4,
+    "enableConfigurationSquiggles": false
+}

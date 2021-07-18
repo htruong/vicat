@@ -1,0 +1,15 @@
+{ 
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "bashdb",
+            "name": "Launch DosBox",
+            "request": "launch",
+            "program": "run.sh",
+            "args" : [],
+            "cwd": "${workspaceFolder}/src", 
+            "preLaunchTask": "Build"
+        }
+    ],
+    
+}
