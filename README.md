@@ -1,5 +1,7 @@
 ## vicat - An Unicode Vietnamese file reader for MS-DOS
 
+![Vicat](https://github.com/htruong/vicat/blob/master/docs/screenshot.png?raw=true)
+
 ## Features
 
 - Displays Vietnamese UTF-8 file directly from command line.
