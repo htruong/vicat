@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <graph.h>
 #include <string.h>
-#include "main.h"
 
 enum p_state {
    P_NORMAL,
